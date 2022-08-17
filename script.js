@@ -5,7 +5,7 @@ const data = {
 };
 
 function func(option) {
-    let [color, width, height] = option
+    let {color, width, height} = option
     console.log(color, width, height);
 };
 
